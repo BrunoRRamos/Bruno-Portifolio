@@ -1,13 +1,31 @@
-.botao__header {
-    background-color: transparent;
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 0%;
-    width: 10px;
-    cursor: pointer;
+.header__info {
+    background-color: bisque;
+    border: none;
+    margin: 0%;
 }
 
-.barra__nav {
-    flex: auto;
-    justify-content: end;
+.container__header {
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    padding: 0%;
+}
+
+.container__img {
+    display: flex;
+    flex-direction: column;
+    #imagem_bruno {
+        width: 300px;
+        border-radius: 100%;
+    }
+    #nome_bruno {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        margin: 3px;
+    }   
+}
+
+.header_main_text {
+    text-align: justify;
+    border: 10px;
 }
